@@ -2,8 +2,8 @@ name: Build
 on:
   workflow_dispatch:
       inputs:
-        package_name:
-          description: "net.kernys.aooni:"
+        package_name: net.kernys.aooni
+          description: "Package name of the game:"
           required: true
 
 jobs:
